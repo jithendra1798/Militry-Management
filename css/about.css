@@ -15,12 +15,21 @@ body {
 }
 
 #logo-img {
+    background:url('../images/logo5.png') no-repeat;
+    width: 130px;
+    height: 100px;
+    margin: 10px 15px 10px 10px;
+    border-radius:57px;
+    border: 6px solid orange;
+}
+
+/*#logo-img {
     background:url('../images/logo-ig.png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 10px 15px 10px 10px;
     border: 3px solid brown;
-}
+}*/
 
 
 .navbar-brand {
