@@ -53,9 +53,32 @@ CREATE TABLE REWARD (
 	year int not null check(year>=1000 and year<=5000)
 	);
 	
+create table manufacturing(
+w_id int not null,
+manufacturing_date date not null,
+manufacturing_location varchar(50) not null,
+name varchar(50) not null
+);
+create table COMPANY(
+name varchar(50) not null references manufacturing(name),
+class varchar(50) null
+);
 
 
+create table INVENTORY(
+w_id int not null,
+ID int not null references SOLDIER(ID)
+);
+create table WEAPONS(
+W_id int not null references INVENTORY(w_id),
+name varchar(50) not null,
+primary key(name)
+);
 
+ create table CATAGORY (
+ name varchar(50) not null references WEAPONS(name),
+ class varchar(50) not null
+ );
 	
 describe LOCATION;
 describe BATALLIAN;
