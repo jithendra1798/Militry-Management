@@ -94,14 +94,29 @@ body {
   margin:0;
 }
 
-.container-fluid .jumbotron {
+.container-fluid .jumbotron{
   border-radius:0;
-  opacity:0.4;
+  opacity:1;
   padding:10px;
   margin:0;
   width: 1500px;
   box-shadow: 0 0 20px #3F0C1F;
   border: 2px solid #3F0C1F;
+}
+
+h2 {
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:200%;
+}
+
+h4 {
+  text-align:center;
+  text-align:top;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:100%;
+  color:black;
+  opacity:5;
 }
 
 /* END HOME PAGE */
