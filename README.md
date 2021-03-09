@@ -1,2 +1,3 @@
-# Military Management - https://jithendra1798.github.io/Militry-Management/
+# Military Management
+https://jithendra1798.github.io/Militry-Management/
 
