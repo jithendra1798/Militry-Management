@@ -156,4 +156,4 @@ describe REGISTER;
 
 
 
-drop database military_management;
+/*drop database military_management;*/
