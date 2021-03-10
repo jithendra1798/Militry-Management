@@ -50,11 +50,11 @@ CREATE TABLE MEDAL (
 	);
 	
 	
-CREATE TABLE REWARD (
-	name varchar(50) not null references MEDAL(name) on update cascade on delete cascade,
-	id int not null references SOLDIER(id) on update cascade on delete cascade,
-	year int not null check(year>=1000 and year<=5000)
-	);
+create table REWARD(
+name varchar(50) not null references MEDAL(name) on update cascade on delete cascade,
+id int not null references SOLDIER(id) on update cascade on delete cascade,
+year int not null check(year>=1000 and year<=5000)
+);
 	
 
 
