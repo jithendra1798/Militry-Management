@@ -68,6 +68,7 @@ name varchar(50) not null
 );
 create table COMPANY(
 name varchar(50) not null references MANFACTURING(name),
+ on delete cascade on update cascade,
 class varchar(50) null
 );
 
@@ -78,12 +79,14 @@ ID int not null references SOLDIER(ID)
 );
 create table WEAPONS(
 W_id int not null references INVENTORY(w_id),
+ on delete cascade on update cascade,
 name varchar(50) not null,
 primary key(name)
 );
 
  create table CATAGORY (
  name varchar(50) not null references WEAPONS(name),
+  on delete cascade on update cascade,
  class varchar(50) not null
  );
 	
@@ -95,7 +98,7 @@ salary int not null
 
 create table ASSIGN(
   sold_id int  references SOLDIER(ID)
-    on delete cascade on update cascade,
+   on delete cascade on update cascade,
   type varchar (80) not null references WORK(type)
   on delete cascade on update cascade,
   date date not null,
