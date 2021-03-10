@@ -67,7 +67,7 @@ manufacturing_location varchar(50) not null,
 name varchar(50) not null
 );
 create table COMPANY(
-name varchar(50) not null references MANFACTURING(name),
+name varchar(50) not null references MANFACTURING(name)
  on delete cascade on update cascade,
 class varchar(50) null
 );
@@ -76,16 +76,18 @@ class varchar(50) null
 create table INVENTORY(
 w_id int not null,
 ID int not null references SOLDIER(ID)
+on delete cascade on update cascade
 );
+
 create table WEAPONS(
-W_id int not null references INVENTORY(w_id),
+W_id int not null references INVENTORY(w_id)
  on delete cascade on update cascade,
 name varchar(50) not null,
 primary key(name)
 );
 
  create table CATAGORY (
- name varchar(50) not null references WEAPONS(name),
+ name varchar(50) not null references WEAPONS(name)
   on delete cascade on update cascade,
  class varchar(50) not null
  );
