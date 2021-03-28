@@ -60,28 +60,6 @@
 			<li><a href="#">Quisque sodales arcu</a></li>
 			<li><a href="#">Nam tincidunt consec</a></li>
 		</ul>
-		<h2>Nulla vel  mollis</h2>
-		<ul>
-			<li><a href="#">Pellentesque consequat</a></li>
-			<li><a href="#">Morbi condimentum</a></li>
-			<li><a href="#">Cras tempor pulvinar</a></li>
-			<li><a href="#">Pellentesque vel magna</a></li>
-			<li><a href="#">Purus placerat imperdiet</a></li>
-			<li><a href="#">Duis ultrices pede vel</a></li>
-			<li><a href="#">Etiam eu libero eget est</a></li>
-			<li><a href="#">Faucibus fermentum.</a></li>
-			<li><a href="#">Vestibulum vulputate</a></li>
-			<li><a href="#">Cras sollicitudin pede et</a></li>
-			<li><a href="#">Maecenas interdum ante</a></li>
-			<li><a href="#">Nullam lacinia eleifend</a></li>
-		</ul>
-	</div>
-	<div style="clear: both;">&nbsp;</div>
-</div>
-<div id="footer">
-	<p>Copyright &copy; 2006  Elemenst. Designed by <a href="http://www.freecsstemplates.org/"><strong>Free CSS Templates</strong></a></p>
-</div>
-<div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div>
--->
+		
 </body>
 </html>
