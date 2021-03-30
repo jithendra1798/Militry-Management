@@ -2,6 +2,23 @@
 <head>
 <title>weapons details</title>
 </head>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>login</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../css/default.css" / rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+	<h1><a href="#">ARMY</a></h1>
+	<h2>ministry of defence</a></h2>
+</div>
+
+<div id="menu">
+	
+</div>
+
 <body>
 <form>
 <div>
@@ -44,7 +61,9 @@ if ($result !== false && $result->num_rows > 0) {
 
 ?>	
 </div>	<br><br><br>
+<center>
 	<a href="xx.php"> <input type="button" id="submit_btn" value="back"></a>
+	</center>
 </form>
 </body>
 </html>

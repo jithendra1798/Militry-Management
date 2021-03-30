@@ -60,7 +60,7 @@ $conn->close();
 <center>
 <a href="xx.php"> <input type="button" id="submit_btn" value="back"></a>
 		</form></center>
-</div>	<br><br><br> 
+</div>	
 
 
 </body>

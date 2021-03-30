@@ -22,7 +22,7 @@
         $stmt=$con->prepare("insert into register (first_name,last_name,soldier_id,email,password,phone_no,soldier_rank) values (?,?,?,?,?,?,?)");
         $stmt->bind_param("ssissss",$firstname, $lastname,$soldierid,$email,$password,$number,$rank); 
         $stmt->execute();
-        echo "sucessfully register";
+        echo "sucessfully registered";
         $stmt->close();
         $con->close();
     }
