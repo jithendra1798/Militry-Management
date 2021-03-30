@@ -1,0 +1,304 @@
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-size: 16px;
+    color: maroon;
+    font-family: 'Exo', sans-serif;
+    background-color: #d7eef7;
+}
+/**Header**/
+
+.container-fluid {
+    margin-left:5%;
+    margin-right:5%;
+}
+
+#header-nav {
+    background-color: lightgray;
+    border-radius: 0;
+    border-width: 5px;
+    border-color:darkgray;
+    box-shadow: 0 0 5px #3F0C1F;
+}
+
+
+#logo-img {
+    background:url('../images/logo5.png') no-repeat;
+    width: 130px;
+    height: 100px;
+    margin: 10px 15px 10px 10px;
+    border-radius:57px;
+    border: 6px solid orange;
+}
+
+
+.navbar-brand {
+    padding-top:25px;
+}
+
+.navbar-brand h1 {
+     font-family: 'Raleway', sans-serif;
+     color: #b0f;
+     font-size:2em;
+     text-transform:uppercase;
+     font-weight: bold;
+     text-shadow: 1px 1px 1px #222;
+     margin-top: 0;
+     margin-bottom:0;
+     line-height:0.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+     text-decoration:none;
+}
+
+.navbar-brand p {
+    font-size:.8em;
+    color:#002B36;
+    text-transform: uppercase;
+    text-align:center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.navbar-brand p span {
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  font-size:1.3em;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+/*  margin-top: -30px;*/
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+.container-fluid {
+  margin:0;
+}
+
+.container-fluid .jumbotron{
+  border-radius:0;
+  opacity:1;
+  padding:10px;
+  margin:0;
+  width: 1500px;
+  box-shadow: 0 0 20px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+h2 {
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:200%;
+  padding:0;
+  text-shadow: 2px 0 #888888;
+  margin: 0;
+  color:Black;
+  background-color : white;
+}
+
+h4 {
+  text-align:center;
+  text-align:top;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:180%;
+  color: darkgreen;
+  text-shadow: 2px 2px white;
+  padding:0;
+  margin: 0;
+}
+
+/* END HOME PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .container-fluid .jumbotron {
+    background: url('../images/jumbotron-1200-1.jpg') no-repeat;
+    height: 900px;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo.jpg') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+   /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron-992-1.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+      /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron-992-2.jpg') no-repeat;
+    height: 432px;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw;/*  1vw = 1%viewport width */ 
+  }
+  .navbar-brand p {
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    vertical-align:center;
+    font-weight:bold;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+/*End of Header*/
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+
+}
+
+
+/* cards styling */
+
+.card:hover{
+  transform:scale(1.05);
+}
+
+.card1 {
+	font-family: "Times New Roman", Times, serif;font-size:16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  border: 1.5px solid maroon;
+  background-color: lightgray;
+  float: left;
+          border: 3px solid #000000;
+          padding:0;
+          margin:1.5%;
+          background-color: lightgray;
+          width:50%;
+}
+
+.card {
+	font-family: "Times New Roman", Times, serif;font-size:16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 440px;
+  margin: auto;
+  text-align: center;
+  border: 1.5px solid maroon;
+  background-color: lightgray;
+  float: left;
+          border: 3px solid #000000;
+          padding:0;
+          margin:1.5%;
+          background-color: lightgray;
+          width:50%;
+}
+
+
+
+.title {
+  color: green;
+  font-weight : bold;
+  margin-right: 80px;
+  font-size: 20px;
+}
+
+button {
+  border: 1.5px solid maroon;
+  color: maroon;
+  background-color: lightgray;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  width: 49%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+  border: 1.5px solid  lightgray;
+  color:  lightgray;
+  background-color: maroon;
+}
+
+h3 {
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:200%;
+  padding:0;
+  margin: 0;
+  color:Black;
+  background-color : #f1f1f1; 
+  border-color: #800000;  
+  border-width: .25em;  
+  border-style: double;  
+}
+
+.rank {
+	text-align : left;
+	float: left;
+	margin-left : 60px;
+}
