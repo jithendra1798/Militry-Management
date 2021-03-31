@@ -3,6 +3,39 @@
 <title>inventory</title>   
 </head>
 <body>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>login</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../css/default.css" / rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+	<h1><a href="#">ARMY</a></h1>
+	<h2>ministry of defence</a></h2>
+</div>
+
+<div id="menu">
+	
+</div>
+   <head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>login</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../css/default.css" / rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+	<h1><a href="#">ARMY</a></h1>
+	<h2>ministry of defence</a></h2>
+</div>
+
+<div id="menu">
+	
+</div>
+   
 <form>
 <div>
 <?php

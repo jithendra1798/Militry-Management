@@ -1,13 +1,13 @@
 <?php
 // Initialize the session
 session_start();
- 
+/* 
 // Check if the user is logged in, otherwise redirect to login page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: login.php");
+    header("location: xx.php");
     exit;
 }
- 
+*/
 // Include config file
 require_once "config.php";
  
@@ -39,7 +39,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         
     // Check input errors before updating the database
     if(empty($new_password_err) && empty($confirm_password_err)){
-        // Prepare an update statement
+        // Prepare an update statement mmmnl
         $sql = "UPDATE users SET password = ? WHERE id = ?";
         
         if($stmt = mysqli_prepare($link, $sql)){
@@ -81,11 +81,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
+ <center>
 <body>
     <div class="wrapper">
+   
         <h2>Reset Password</h2>
         <p>Please fill out this form to reset your password.</p>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post"> 
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+        <div class="form-group">
+                <label>Username</label>
+                <input type="text" name="" class="form-control <?php echo (!empty($new_password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $new_password; ?>">
+                <span class="invalid-feedback"><?php echo $new_password_err; ?></span>
+            </div> 
             <div class="form-group">
                 <label>New Password</label>
                 <input type="password" name="new_password" class="form-control <?php echo (!empty($new_password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $new_password; ?>">
@@ -98,7 +105,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Submit">
-                <a class="btn btn-link ml-2" href="welcome.php">Cancel</a>
+                <a class="btn btn-link ml-2" href="login.html">Cancel</a>
+                </center>
             </div>
         </form>
     </div>    

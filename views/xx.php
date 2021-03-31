@@ -15,7 +15,7 @@
 </div>
 <div id="menu">
 	<ul>
-		<li class="active"><a href="soldier details.php" accesskey="1" title="">personal info</a></li>
+		<li class="active"><a href="soldier details.php" accesskey="1" title="">soldier details</a></li>
 		<li><a href="weopons_details.php" accesskey="2" title="">weapon details</a></li>
 		<li><a href="battalians.php" accesskey="3" title="">battalians</a></li>
 		<li><a href="mailto:someone@example.com" accesskey="5" title="">Contact Us</a></li>
@@ -49,17 +49,11 @@
 		<ul>
 			<li><a href="all_soldier_details.php">All soldier details</a></li>
 			<li><a href="slary_list.php">salary</a></li>
-			<li><a href="catagory_wise.php">catagory wise wepons list</a></li>
-			<li><a href="battalians.php">battalians</a></li>
+			<li><a href="weapons.php">catagory wise wepons list</a></li>
+			<li><a href="inventory.php">inventory</a></li>
 			<li><a href="medals.php">medals</a></li>
-			<li><a href="rewards">rewards</a></li>
+			<li><a href="rewards.php">rewards</a></li>
 			<li><a href="war.php">war details</a></li>
-			<!--<li><a href="#">In posuere risus ac felis</a></li>
-			<li><a href="#">Proin facilisis sagittis</a></li>
-			<li><a href="#">In fringilla aliquet odio</a></li>
-			<li><a href="#">Quisque sodales arcu</a></li>
-			<li><a href="#">Nam tincidunt consec</a></li>
-		</ul>
-		
+			
 </body>
 </html>
