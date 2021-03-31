@@ -158,7 +158,38 @@ describe ASSIGN;
 describe WAR;
 describe REGISTER;
 
+CREATE VIEW General as
+	
+	select
+	SOLDIER.name as Soldier,
+	SOLDIER.soldier_rank as Ranking,
+	SOLDIER.dob,
+	SOLDIER.sex,
+	SOLDIER.height,
+	SOLDIER.weight,
+	REWARD.name as Reward,
+	REWARD.year as 'Rewarded on',
+	BATALLIAN.batallion_name,
+	BATALLIAN.year as 'Year in Batallian'	
+	
+	from BATALLIAN,SOLDIER,REWARD
+	
+	where REWARD.id = SOLDIER.id and BATALLIAN.batallion_name = SOLDIER.squadno;
 
+describe General;
 
+CREATE VIEW Weapons as
+	select 
+	WEAPONS.name as Weapon,
+	MANUFACTURING.manufacturing_date'MFG Date',
+	MANUFACTURING.manufacturing_location as 'Manufactured in',
+	MANUFACTURING.name as Manufacturer
+	
+	from WEAPONS,MANUFACTURING
+	
+	where WEAPONS.W_id = MANUFACTURING.w_id;
+	
 
-/*drop database military_management;*/
+describe Weapons;
+
+drop database military_management;

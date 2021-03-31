@@ -236,19 +236,19 @@ h4 {
 }
 
 .card {
-	font-family: "Times New Roman", Times, serif;font-size:16px;
+  font-family: Arial, Helvetica, sans-serif;font-size:20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 440px;
+  max-width: 500px;
   margin: auto;
   text-align: center;
   border: 1.5px solid maroon;
   background-color: lightgray;
   float: left;
-          border: 3px solid #000000;
-          padding:0;
-          margin:1.5%;
-          background-color: lightgray;
-          width:50%;
+  border: 3px solid #000000;
+  padding:0;
+  margin:1.5%;
+  background-color: lightgray;
+  width:50%;
 }
 
 
